@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الألوان الأساسية للتطبيق -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- لون الخلفية للأزرار -->
+    <color name="button_background">#727FCE</color> <!-- أزرق مائل للموف -->
+
+    <!-- ألوان إضافية في حال أردت استخدامها لاحقًا -->
+    <color name="primary">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC6</color>
+</resources>

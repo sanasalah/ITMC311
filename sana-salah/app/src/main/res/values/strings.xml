@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentExample</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">اختر نوع الانتقال الذي تريد تجربته</string>
+    <string name="explicit_intent">الانتقال إلى الشاشة الثانية</string>
+    <string name="implicit_intent">فتح موقع Google</string>
+
+    <!-- SecondActivity -->
+    <string name="second_activity_text">مرحبًا بك في الشاشة الثانية!</string>
+    <string name="back_button">رجوع إلى الشاشة الرئيسية</string>
+
+    <!-- Toast messages -->
+    <string name="toast_explicit">جاري الانتقال إلى الشاشة الثانية...</string>
+    <string name="toast_implicit">جاري فتح المتصفح...</string>
+</resources>
