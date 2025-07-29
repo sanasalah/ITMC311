@@ -1,0 +1,12 @@
+<resources>
+    <color name="purple_500">#9C27B0</color>
+    <color name="purple_700">#7B1FA2</color>
+    <color >#E2E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color >#FF4A5F</color>
+    <color >#F9F9F9</color>
+    <color >#FFF4BA</color>
+
+    <color name="background">#FACD06</color> <!-- لون خلفية مريح -->
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_bg">#009999</color>
+    <color name="light_blue">#CCFFFF</color>
+    <color name="blue_box">#0000FF</color>
+    <color name="red">#CC0000</color>
+</resources>

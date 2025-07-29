@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Thread Progress Demo</string>
+    <string name="stop_button">Stop Thread</string>
+    <string name="working_text">Working...</string>
+    <string name="done_text">Done</string>
+    <string name="stopped_text">Stopped manually</string>
+    <string name="returned_text">Returned by background thread:</string>
+    <string name="done_background">Done - Background thread has stopped.</string>
+
+    <!-- 🔁 نصوص تحتوي على متغيرات -->
+    <string name="returned_value_template">Returned by background thread:\n\n%s</string>
+    <string name="working_step_template">Working... %1$d</string>
+    <string name="thread_value_template">Thread Value: %1$d\n%2$s - %3$d</string>
+</resources>

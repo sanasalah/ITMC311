@@ -1,0 +1,14 @@
+# استثناء ملفات Android
+*.iml
+.gradle/
+.idea/
+/build/
+/local.properties
+/captures/
+.externalNativeBuild
+.cxx/
+
+# استثناء لكل مشروع
+Projects/*/build/
+Projects/*/.gradle/
+Projects/*/.idea/

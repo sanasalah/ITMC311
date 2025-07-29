@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thread Example</string>
+    <string name="title_text">Background Processing</string>
+    <string name="press_instruction">Press one of the buttons</string>
+    <string name="not_using_threads">1) Not using threads</string>
+    <string name="using_threads">2) Using threads</string>
+    <string name="press_me">PRESS ME</string>
+    <string name="processing">Processing</string>
+    <string name="done">DONE!</string>
+    <string name="warning_frozen">⚠️ Warning: App was frozen!</string>
+    <string name="background_task_done">✅ Background Task Completed</string>
+</resources>

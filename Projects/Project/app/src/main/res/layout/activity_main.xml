@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="24dp">
+
+    <!-- البومة في الوسط -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_booma"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        app:lottie_fileName="booma.json"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <!-- العناصر العلوية -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/lottie_booma"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- العنصر الأيسر العلوي -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_top_left"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="40dp"
+            app:lottie_fileName="circl.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <!-- العنصر الأيمن العلوي -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_top_right"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="40dp"
+            app:lottie_fileName="morbh.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+
+    <!-- العناصر السفلية -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lottie_booma"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- العنصر الأيسر السفلي -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_bottom_left"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="40dp"
+            app:lottie_fileName="morbh.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <!-- العنصر الأيمن السفلي -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottie_bottom_right"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="40dp"
+            app:lottie_fileName="circl.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+
+    <!-- زر البدء -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="200dp"
+        android:layout_height="56dp"    android:textSize="20sp"
+        android:text="@string/start_learning"
+        android:backgroundTint="#FF4A5F"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"/>
+</RelativeLayout>

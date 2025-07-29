@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_bg"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/working_text"
+        android:textSize="22sp"
+        android:textColor="@color/light_blue"
+        android:layout_alignParentTop="true" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/TextView01"
+        android:progress="0"
+        android:max="60"
+        android:progressDrawable="@android:drawable/progress_horizontal" />
+
+    <ProgressBar
+        android:id="@+id/progress2"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_box"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_below="@id/progress2"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/returned_text" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_button"
+        android:layout_below="@id/TextView02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

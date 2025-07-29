@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">تعلم بطريقة ممتعة</string>
+    <string name="start_learning">ابدأ التعلم</string>
+    <string name="nature">الحروف</string>
+    <string name="animals">الارقام</string>
+    <string name="colors">الألوان</string>
+    <string name="listen">استمع</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="start">البداية</string>
+    <string name="desc_letters">أيقونة قسم الحروف</string>
+    <string name="desc_numbers">أيقونة قسم الأرقام</string>
+    <string name="desc_colors">أيقونة قسم الألوان</string>
+    <string name="back_to_categories">عودة للأقسام</string>
+    <string name="end_message">هذه هي النهاية</string>
+
+    <!-- قسم الحروف -->
+    <string-array name="nature_titles">
+        <item>أ</item>
+        <item>ب</item>
+        <item>ت</item>
+    </string-array>
+    <string-array name="nature_descriptions">
+        <item>أسد </item>
+        <item>بطة </item>
+        <item>تفاحة</item>
+    </string-array>
+
+    <!-- قسم الأرقام -->
+    <string-array name="animals_titles">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="animals_descriptions">
+        <item>واحد </item>
+        <item>اثنان</item>
+        <item>ثلاثة </item>
+    </string-array>
+
+    <!-- قسم الألوان -->
+    <string-array name="colors_titles">
+        <item>أحمر</item>
+        <item>أزرق</item>
+        <item>أصفر</item>
+    </string-array>
+    <string-array name="colors_descriptions">
+        <item>الأحمر لون النار</item>
+        <item>الأزرق لون البحر</item>
+        <item>الأصفر لون الشمس</item>
+    </string-array>
+</resources>

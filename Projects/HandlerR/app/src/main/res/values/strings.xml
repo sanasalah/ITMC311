@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Handler Example</string>
+    <string name="starting_msg">Some important data is being collected now. Please be patient.</string>
+    <string name="background_work_over_msg">Background work is OVER!</string>
+    <string name="hint_enter_data">Enter data here</string>
+    <string name="do_something">Do Something</string>
+    <string name="stop">Stop</string>
+    <string name="total_seconds">Total sec. so far: %1$d</string> <!-- Placeholder for seconds -->
+</resources>

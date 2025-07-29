@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- TextView الرئيسي -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_provider"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- حقل إدخال الاسم -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/student_name_hint"
+        android:inputType="textCapWords"
+        android:autofillHints="name"
+        android:importantForAutofill="yes"
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:background="#BFBAB1"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="24dp"/>
+
+    <!-- حقل إدخال الدرجة -->
+    <EditText
+        android:id="@+id/editTextGrade"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="@string/grade_hint"
+        android:inputType="number"
+        android:autofillHints="none"
+        android:importantForAutofill="yes"
+        android:textColor="#000000"
+        android:textColorHint="#757575"
+        android:background="#BFBAB1"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"/>
+
+    <!-- زر الإضافة -->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:minWidth="120dp"
+        android:text="@string/add_student"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/editTextGrade"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- زر الحذف -->
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="139dp"
+        android:layout_height="55dp"
+        android:minWidth="170dp"
+        android:text="@string/delete_student"
+        android:backgroundTint="#B00020"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/editTextGrade"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@id/buttonAdd"
+        android:layout_marginStart="16dp"/>
+
+    <!-- قائمة العرض -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>

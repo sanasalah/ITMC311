@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"> <!-- Sky Blue Color -->
+
+    <TextView
+        android:id="@+id/txtCaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/starting_msg"
+        android:textColor="@color/text_color"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCaption"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+    android:layout_below="@id/progressBar"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/edtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResult"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint_enter_data"
+        android:inputType="text"
+        android:maxWidth="300dp" /> <!-- Set a maximum width -->
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/do_something"
+        android:layout_below="@id/edtInput"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:background="@color/button_color"
+        android:textColor="@color/text_color" /> <!-- Ensure text color contrast -->
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:layout_below="@id/edtInput"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/btnStart"
+        android:background="@color/button_color"
+        android:textColor="@color/text_color" /> <!-- Ensure text color contrast -->
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BroadcastReceiver</string>
+    <string name="battery_level_text">Battery Level: %1$d%%</string>
+    <string name="charging_status_default">Charging status</string>
+    <string name="charging_usb">Charging via USB</string>
+    <string name="charging_ac">Charging via AC</string>
+    <string name="charging_wireless">Charging wirelessly</string>
+    <string name="not_charging">Not Charging</string>
+</resources>

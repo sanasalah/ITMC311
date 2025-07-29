@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="background_processing">Background Processing Using AsyncTask</string>
+    <string name="button_process">Process</string>
+    <string name="processing_0">Processing 0%</string>
+    <string name="processing_percentage">Processing %1$d%%</string>
+    <string name="processing_complete">Processing complete</string>
+    <string name="processing_cancelled">Processing cancelled</string>
+    <string name="time_remaining">Time remaining: %1$d seconds</string>
+    <string name="toast_start">Invoke onPreExecute() Process</string>
+    <string name="toast_complete">Invoke onPostExecute() Process</string>
+    <string name="toast_cancelled">Process cancelled</string>
+</resources>

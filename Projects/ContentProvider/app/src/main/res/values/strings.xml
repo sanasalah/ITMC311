@@ -1,0 +1,29 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">Student Manager</string>
+
+    <!-- Main Activity Strings -->
+    <string name="content_provider">Student Management</string>
+    <string name="student_name_hint">Enter student name</string>
+    <string name="grade_hint">Enter grade</string>
+    <string name="add_student">Add Student</string>
+    <string name="delete_student">Delete All</string>
+
+    <!-- Button Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Status Messages -->
+    <string name="student_added">Student added successfully!</string>
+    <string name="delete_success">%d student(s) deleted</string>
+    <string name="input_error">Please enter both name and grade</string>
+
+    <!-- List Items -->
+    <string name="student_id">ID: %1$s</string>
+    <string name="student_name">Name: %1$s</string>
+    <string name="student_grade">Grade: %1$s</string>
+
+    <!-- Autofill Hints -->
+    <string name="autofill_name">name</string>
+    <string name="autofill_grade">grade</string>
+</resources>
